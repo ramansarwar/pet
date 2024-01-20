@@ -1,0 +1,39 @@
+
+html, body {
+    height: 100vh;
+}
+
+
+body {
+    background: url("bg.avif");
+    background-color: #cccccc;
+
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+
+.navbar{
+    
+    display: flex;
+    
+    justify-items: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+
+.center{
+    
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
